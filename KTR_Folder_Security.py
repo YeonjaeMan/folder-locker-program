@@ -1,5 +1,5 @@
 """
-Copyright (c) 2024 [github.com/Yeonjaeman]
+Copyright (c) 2024 [https://github.com/YeonjaeMan/folder-locker-program]
 All rights reserved.
 
 This program is licensed under the MIT License.
@@ -211,7 +211,7 @@ def open_login():
 
     folders = load_folders()
     root = tk.Tk()
-    root.title("KTR Folder Security Program Ver 0.1")
+    root.title("Folder Security Program Ver 0.1")
 
     # 아이콘 설정
     set_icon(root)
@@ -239,7 +239,7 @@ def open_login():
     update_folder_buttons()
 
     # 저작권 표시 레이블 추가
-    copyright_label = tk.Label(root, text="Copyright (c) 2024 QAU운영팀 - All rights reserved.", font=("Arial", 8), fg="gray")
+    copyright_label = tk.Label(root, text="Copyright (c) 2024 https://github.com/YeonjaeMan/folder-locker-program - All rights reserved.", font=("Arial", 8), fg="gray")
     copyright_label.grid(row=100, column=0, columnspan=2, pady=10)
 
     root.mainloop()
